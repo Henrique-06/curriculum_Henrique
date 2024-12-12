@@ -59,7 +59,45 @@ a:hover{
     border-radius: 20%;
 }
 
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/materialicons/v142/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2) format('woff2'); }
+
 .material-icons {
     font-family: 'Material Icons';
-    font-size: 1rem ;
+    font-weight: normal;
+    font-style:normal;
+    font-size: 1rem;
+    line-height: 1rem;
+    letter-spacing: 1.5rem;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-smoothing: antialiased;
+}
+
+#social {
+    text-align: center;
+    font-size: 28px;
+}
+
+#social a {
+    color: white;
+    font-size: 2rem;
+}
+
+#social .fa-linkedin {
+    color: navy;
+}
+
+#social .fa-instagram {
+    color: #E1306C;
+}
+
+#social .fa-github {
+    color: #24292e;
 }
